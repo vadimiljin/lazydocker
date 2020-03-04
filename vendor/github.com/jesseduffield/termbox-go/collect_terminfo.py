@@ -13,7 +13,7 @@ def tput(term, name):
 
 
 def w(s):
-	if s == None:
+	if s is None:
 		return
 	sys.stdout.write(s)
 
